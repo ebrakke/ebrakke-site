@@ -2,8 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'erik-brakke-site',
     author: 'Erik Brakke',
-    description:
-      'A personal site for me',
+    description: 'A personal site for me',
     siteUrl: 'https://www.ebrakke.com',
   },
   pathPrefix: '/',
@@ -42,7 +41,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-135078640-1`,
       },
     },
     `gatsby-plugin-feed`,
