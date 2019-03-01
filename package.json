@@ -1,11 +1,8 @@
 {
-  "name": "gatsby-minimal-portfolio-blog",
-  "description": "GatsbyJS starter for a minimal portfolio website with blog. Suitable for developers.",
+  "name": "ebrakke-site",
+  "description": "My personal website",
   "version": "1.0.0",
-  "author": "Sai Krishna",
-  "bugs": {
-    "url": "https://github.com/s-kris/gatsby-minimal-portfolio-blog/issues"
-  },
+  "author": "Erik Brakke",
   "dependencies": {
     "gatsby": "^2.0.19",
     "gatsby-plugin-feed": "^2.0.8",
@@ -52,7 +49,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/s-kris/gatsby-minimal-portfolio-blog.git"
+    "url": "git+https://github.com/ebrakke/ebrakke-site.git"
   },
   "scripts": {
     "dev": "gatsby develop",

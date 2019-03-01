@@ -26,7 +26,17 @@ class SiteIndex extends React.Component {
           I currently work at Carbonite, creating a unified platform to manage
           all Carbonite products.
         </p>
-        <p>I love working with Javascript (React, Node.js) and Python</p>
+        <hr />
+        <p>
+          <b>Languages</b>: Javascript, Python, Elm, C#, Haskell, Java, SQL
+        </p>
+        <p>
+          <b>Web Technologies</b>: React.js, Redux, Node.js, Express, Flask,
+          .Net Core
+        </p>
+        <p>
+          <b>Misc</b>: Docker, Kubernetes, Jenkins, git
+        </p>
         <img src={DisplayImage} alt={siteTitle} />
       </Layout>
     )

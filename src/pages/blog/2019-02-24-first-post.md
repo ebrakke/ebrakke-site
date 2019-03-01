@@ -1,6 +1,6 @@
 ---
 title: First Post
-path: '/blog/hello-world/'
+path: '/blog/first-post/'
 date: 2019-02-24
 author: Erik Brakke
 type: post
