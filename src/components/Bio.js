@@ -6,7 +6,6 @@ import 'typeface-merriweather'
 
 import { rhythm } from '../utils/typography'
 import bioData from './../data/bio'
-import avatar from '../assets/images/avatar.jpg'
 
 class Bio extends React.Component {
   render() {
@@ -18,7 +17,6 @@ class Bio extends React.Component {
         }}
       >
         <img
-          src={avatar}
           alt={`Erik Brakke`}
           style={{
             marginRight: rhythm(1 / 2),

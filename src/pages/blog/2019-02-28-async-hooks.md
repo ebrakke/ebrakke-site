@@ -1,4 +1,5 @@
 ---
+templateKey: blog-post
 title: Async Hooks with Observables
 path: '/blog/async-hooks-with-observables/'
 date: 2019-02-28
