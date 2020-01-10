@@ -42,8 +42,6 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          'gatsby-remark-prismjs',
-          'gatsby-remark-smartypants',
         ],
       },
     },
@@ -68,7 +66,6 @@ module.exports = {
         icon: `src/assets/android-chrome-512x512.png`,
       },
     },
-    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-plugin-typography',

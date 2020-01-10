@@ -3,7 +3,6 @@ import { Link, graphql } from 'gatsby'
 import { Grid, Row, Col } from 'react-flexbox-grid'
 
 import Layout from '../../components/Layout'
-import portfolioData from './../../data/portfolio'
 
 const PortfolioIndex = ({ data }) => {
   return (
@@ -17,7 +16,7 @@ const PortfolioIndex = ({ data }) => {
       >
         <Grid fluid>
           <Row>
-            {portfolioData.map(p => (
+            {[].map(p => (
               <Col xs={12} sm={12} md={6} lg={6} key={p.title}>
                 <Link to={'/portfolio/view'} state={p} key={p.title}>
                   <div

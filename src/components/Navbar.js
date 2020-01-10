@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
 import { rhythm } from './../utils/typography'
-import contactData from './../data/contact'
 
 export class Navbar extends Component {
   render() {
@@ -26,9 +25,6 @@ export class Navbar extends Component {
         >
           <Link to="/">Home</Link>
           <Link to="/portfolio">Portfolio</Link>
-          <a href={contactData.github} target="_new">
-            Github
-          </a>
           <Link to="/contact">Contact</Link>
           <Link to="/blog">Blog</Link>
         </div>
