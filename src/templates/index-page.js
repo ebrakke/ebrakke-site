@@ -1,19 +1,18 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Grid from '@material-ui/core/Grid'
+import Img from 'gatsby-image'
 
 import Layout from '../components/Layout'
-import DisplayImage from './../assets/images/main_image.jpg'
 
 const SiteIndex = props => {
-  const { description } = props.data.markdownRemark.frontmatter
+  const { description, image } = props.data.markdownRemark.frontmatter
   const { html } = props.data.markdownRemark
-
   return (
     <Layout title="Home" description={description}>
       <Grid container spacing={3} justify="center">
-        <Grid item style={{ maxWidth: '400px' }}>
-          <img src={DisplayImage} />
+        <Grid item style={{ minWidth: '300px' }}>
+          <Img fluid={image.childImageSharp.fluid} />
         </Grid>
         <Grid item>
           <div dangerouslySetInnerHTML={{ __html: html }} />
@@ -32,6 +31,13 @@ export const query = graphql`
       frontmatter {
         title
         description
+        image {
+          childImageSharp {
+            fluid(maxWidth: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

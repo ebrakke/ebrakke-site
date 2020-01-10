@@ -24,13 +24,13 @@ export class Navbar extends Component {
             justifyContent: 'space-between',
           }}
         >
-          <Link to={'/'}>Home</Link>
-          <Link to={'/portfolio'}>Portfolio</Link>
+          <Link to="/">Home</Link>
+          <Link to="/portfolio">Portfolio</Link>
           <a href={contactData.github} target="_new">
             Github
           </a>
-          <Link to={'/contact'}>Contact</Link>
-          <Link to={'/blog'}>Blog</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/blog">Blog</Link>
         </div>
       </div>
     )
