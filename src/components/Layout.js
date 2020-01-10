@@ -2,7 +2,6 @@ import React from 'react'
 import SEO from './Seo'
 
 import { rhythm } from '../utils/typography'
-import Header from '../components/Header'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
@@ -22,7 +21,6 @@ const Layout = props => {
   return (
     <div style={finalStyle}>
       <SEO title={props.title} description={props.description} />
-      <Header />
       <Navbar />
       <br />
       {children}
