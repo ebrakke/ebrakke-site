@@ -1,4 +1,5 @@
 ---
+templateKey: blog-post
 title: First Post
 path: '/blog/first-post/'
 date: 2019-02-24

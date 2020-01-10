@@ -42,20 +42,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-135078640-1`,
+        trackingId: ``,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-minimal-portfolio-blog`,
-        short_name: `gmpb`,
+        name: `erik-brakke-site`,
+        short_name: `ebs`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/gatsby-icon.png`,
+        icon: `src/assets/android-chrome-512x512.png`,
       },
     },
     `gatsby-plugin-offline`,

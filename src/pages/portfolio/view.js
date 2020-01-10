@@ -16,7 +16,7 @@ export class view extends Component {
     return (
       <Layout>
         <Helmet>
-          <title>{`${title} | Sai Krishna`}</title>
+          <title>{`${title} | Erik Brakke`}</title>
         </Helmet>
         <Link to="/portfolio">&larr; back</Link>
         <h2>{title}</h2>

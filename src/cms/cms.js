@@ -1,2 +1,1 @@
-import CMS from 'netflify-cms';
-
+import CMS from 'netlify-cms'
