@@ -12,7 +12,7 @@ about:
 Hi, I'm Erik. I'm a fullstack developer specializing in React, GatsbyJS, and NodeJS. For the past 5 years, I have been building scalable websites and web applications in the security and backup sector.
 
 ## How I can help you
-If you have a small business that needs a web presence, I can help build you a website to show off to your customers what your business is all about.  The process will look something like this:
+If you have a small business that needs a web presence, I can help build you a website to show off to your customers what your business is all about.  I take the following approach with my clients:
 * Learning Phase: Learn about your business, and see how I might be able to help boost your web presence
 * Design Phase: Create mockups and iterate on those design until you are satisfied with the result
 * Build Phase: Implement those designs and add content to your site.  You will have access to control the content of your site, while I will handle the nitty gritty technical details of design, hosting, scaling, etc..
