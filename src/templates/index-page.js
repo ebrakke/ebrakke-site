@@ -44,10 +44,10 @@ const SiteIndex = props => {
             <Grid item component={Typography} variant="h5" xs={12}>
               About Me
             </Grid>
-            <Grid item className={classes.aboutImage} xs={6}>
+            <Grid item className={classes.aboutImage} md={6} xs={12}>
               <Img fluid={about.image.childImageSharp.fluid} />
             </Grid>
-            <Grid item xs>
+            <Grid item md xs={12}>
               <Typography>{about.text}</Typography>
             </Grid>
           </Grid>
