@@ -1,7 +1,7 @@
 const data = {
-  github: 'https://github.com/ebrakke',
-  linkedin: 'https://www.linkedin.com/in/ebrakke/',
-  email: null,
+  github: { link: 'https://github.com/ebrakke' },
+  linkedin: { link: 'https://www.linkedin.com/in/ebrakke/' },
+  email: { text: 'eriksbrakke [at] gmail [dot] com' },
 }
 
 export default data
